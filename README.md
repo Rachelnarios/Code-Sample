@@ -17,6 +17,7 @@ $ cd /home/cso17/cso
 $ git clone https://github.com/nyu-cso-17fall/recitation-YOUR_GITHUB_USER_NAME
   # For example, my user name is fegin and the command is like the next line.
   # git clone https://github.com/nyu-cso-17fall/recitation-fegin
+$ cd recitation-YOUR_GITHUB_USER_NAME
 $ git remote add upstream https://github.com/nyu-cso-17fall/cso17-recitation
 $ git pull upstream master
 $ git push
