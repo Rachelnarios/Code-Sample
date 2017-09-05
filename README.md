@@ -1,4 +1,4 @@
-# Instructions
+# CSO17-Recitation
 This repository is served for two purposes. First, all tutorials, resources and sample codes will be updated to this repository. You should sync the latest content from the upstream repository before every recitation. This repository is also where you submit your solutions to the recitation questions.
 
 ### Programming Environment
@@ -10,12 +10,14 @@ You are required to do all recitation exercises and labs on the class virtual ma
 * Step 4. After importing, start the virtual machine named "cso17-VirtualBox" and log in using the username and password given in Piazza). Change your password.
 
 ### Recitation Repository Initialization
+First of all, please create a github account and accept the recitation invitation given in Piazza. Then take the following steps in the the class virtual machine.
+
 ```
 $ cd /home/cso/cso
-$ git clone https://github.com/nyu-cso-17fall/recitation-YOUR_GITHUB_USER_NAME
+$ git clone https://github.com/nyu-cso-17fall/cso17-recitation-YOUR_GITHUB_USER_NAME
   # For example, my user name is fegin and the command is like the next line.
-  # git clone https://github.com/nyu-cso-17fall/recitation-fegin
-$ git remote add upstream https://github.com/nyu-cso-17fall/recitation
+  # git clone https://github.com/nyu-cso-17fall/cso17-recitation-fegin
+$ git remote add upstream https://github.com/nyu-cso-17fall/cso17-recitation
 $ git pull upstream master
 $ git push
 $ git config --global user.email "YOUR_EMAIL_ON_GITHUB"
