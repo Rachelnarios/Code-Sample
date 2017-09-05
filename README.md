@@ -13,7 +13,7 @@ You are required to do all recitation exercises and labs on the class virtual ma
 First of all, please create a github account and accept the recitation invitation given in Piazza. Then take the following steps in the the class virtual machine.
 
 ```
-$ cd /home/cso/cso
+$ cd /home/cso17/cso
 $ git clone https://github.com/nyu-cso-17fall/recitation-YOUR_GITHUB_USER_NAME
   # For example, my user name is fegin and the command is like the next line.
   # git clone https://github.com/nyu-cso-17fall/recitation-fegin
