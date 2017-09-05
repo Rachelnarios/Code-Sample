@@ -14,9 +14,9 @@ First of all, please create a github account and accept the recitation invitatio
 
 ```
 $ cd /home/cso/cso
-$ git clone https://github.com/nyu-cso-17fall/cso17-recitation-YOUR_GITHUB_USER_NAME
+$ git clone https://github.com/nyu-cso-17fall/recitation-YOUR_GITHUB_USER_NAME
   # For example, my user name is fegin and the command is like the next line.
-  # git clone https://github.com/nyu-cso-17fall/cso17-recitation-fegin
+  # git clone https://github.com/nyu-cso-17fall/recitation-fegin
 $ git remote add upstream https://github.com/nyu-cso-17fall/cso17-recitation
 $ git pull upstream master
 $ git push
