@@ -39,8 +39,3 @@ $ git add FILES_YOU_NEED_TO_SUBMIT
 $ git commit -m "some comments"
 $ git push
 ```
-
-### Useful Links
-#### Git
-https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
-https://www.git-tower.com/blog/git-cheat-sheet/
