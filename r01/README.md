@@ -175,7 +175,7 @@ There are several important [automatic variables](https://www.gnu.org/software/m
 
 ## Tmux/Screen
 
-It tedious to switch between vim and command line. Unfortunately, you need to do so all the time to compile, run and debug the program. It is possible to do all these in the editor. But it usually required you to install extra plugins. I personally recommend using tmux or screen which can split the terminal into several tabs/windows/panes and provide hot-key to switch among different area quickly.
+It's tedious to switch between vim and command line. Unfortunately, you need to do so all the time to compile, run and debug the program. It is possible to do all these in the editor. But it usually required you to install extra plugins. I personally recommend using tmux or screen which can split the terminal into several tabs/windows/panes and provide hot-key to switch among different area quickly.
 
 Key commands of tmux:
 * `tmux` to launch tmux environment.
