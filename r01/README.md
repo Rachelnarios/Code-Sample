@@ -80,11 +80,16 @@ Here is a tutorial on vim https://wiki.gentoo.org/wiki/Vim/Guide. (If you prefer
 emacs, here's a tutorial on emacs http://www.gnu.org/software/emacs/tour/)
 You can also search online for other tutorials.
 
-`vim` has two main modes:
+`vim` has several modes, three of them you will regularly use:
 * insert mode (whatever you type end up in the file buffer you are editing)
  - to enter insert mode, hit `i` (insert at), `a`(insert after) or `o`(insert next line)
 * normal mode (whatever you type are interpreted as vim commands)
- - to enter normal mode, hit `<ESC`>
+ - to enter normal mode, hit `<ESC>`
+* command line mode (for entering editor commands)
+ - to enter command line mode, hit `:` when being in the normal mode.
+
+Readings:
+* [Learning the vi Editor/Vim/Modes](http://vim.rtorr.com/)
 
 Key commands:
 * `h` `j` `k` `l` for left, down, up, right. Once you mastered using these keys, it becomes as natural as riding a bicycle.
@@ -95,17 +100,17 @@ Key commands:
 * `:q` to quit vim. `:wq` to write and quit.
 
 Useful settings to put in /home/cso17/.vimrc:
-* filetype on             " Enable filetype detection
-* filetype indent on      " Enable filetype-specific indenting
-* filetype plugin on      " Enable filetype-specific plugins
-* syntax on               " syntax highlight
-* set autoindent          " auto indentation
-* set smarttab            " insert tabs on the start of a line according to context
-* set relativenumber      " Turn on relative and absolute number at the same time.
-* set number              " 
-* set expandtab        "replace <TAB> with spaces
-* set softtabstop=4
-* set shiftwidth=4
+* `filetype on`           " Enable filetype detection
+* `filetype indent on`    " Enable filetype-specific indenting
+* `filetype plugin on`    " Enable filetype-specific plugins
+* `syntax on`             " syntax highlight
+* `set autoindent`        " auto indentation
+* `set smarttab`          " insert tabs on the start of a line according to context
+* `set relativenumber`    " Turn on relative and absolute number at the same time.
+* `set number`            " 
+* `set expandtab`         "replace <TAB> with spaces
+* `set softtabstop=4` 
+* `set shiftwidth=4` 
 
 Other readings:
 * [Vim keyboard cheatsheet](http://vim.rtorr.com/)
@@ -223,3 +228,8 @@ After making the modifications, you can check in the changes in your (local) git
 
 * Commit your "Hello world!" program's source code to your Github repository.
 (Github's [student developer pack](https://education.github.com) gives you free private repo(s))
+
+## What to submit for today's recitation
+1. Makefile (with -g and pattern match rules)
+2. foo.c (with the bug fixed)
+3. hello.c (which prints "Hello World")
