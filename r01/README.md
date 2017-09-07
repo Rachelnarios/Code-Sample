@@ -113,6 +113,7 @@ Useful settings to put in /home/cso17/.vimrc:
 * `set shiftwidth=4` 
 
 Other readings:
+* [vim adventures](https://vim-adventures.com/)
 * [Vim keyboard cheatsheet](http://vim.rtorr.com/)
 * [Getting started with vim](http://www.sitepoint.com/getting-started-vim/)
 * [Your problem with vim is that you don't grok vi](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118)
