@@ -108,11 +108,13 @@ Useful settings to put in /home/cso17/.vimrc:
 * `set smarttab`          " insert tabs on the start of a line according to context
 * `set relativenumber`    " Turn on relative and absolute number at the same time.
 * `set number`            " 
-* `set expandtab`         "replace <TAB> with spaces
+* `set expandtab`         " replace <TAB> with spaces
+* `autocmd FileType Makefile set noexpandtab` " You MUST set this if you set expandtab
 * `set softtabstop=4` 
 * `set shiftwidth=4` 
 
 Other readings:
+* [Vim keyboard image](http://www.viemu.com/vi-vim-cheat-sheet.gif)
 * [vim adventures](https://vim-adventures.com/)
 * [Vim keyboard cheatsheet](http://vim.rtorr.com/)
 * [Getting started with vim](http://www.sitepoint.com/getting-started-vim/)
