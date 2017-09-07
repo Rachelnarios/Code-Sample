@@ -82,11 +82,11 @@ You can also search online for other tutorials.
 
 `vim` has several modes, three of them you will regularly use:
 * insert mode (whatever you type end up in the file buffer you are editing)
- - to enter insert mode, hit `i` (insert at), `a`(insert after) or `o`(insert next line)
+  - to enter insert mode, hit `i` (insert at), `a`(insert after) or `o`(insert next line)
 * normal mode (whatever you type are interpreted as vim commands)
- - to enter normal mode, hit `<ESC>`
+  - to enter normal mode, hit `<ESC>`
 * command line mode (for entering editor commands)
- - to enter command line mode, hit `:` when being in the normal mode.
+  - to enter command line mode, hit `:` when being in the normal mode.
 
 Readings:
 * [Learning the vi Editor/Vim/Modes](http://vim.rtorr.com/)
