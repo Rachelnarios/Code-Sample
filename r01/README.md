@@ -24,19 +24,19 @@ Please read this [ guide on using UNIX commands ](https://github.com/jlevy/the-a
 Below is a short list of the most basic commands you will typically use on a day to day basis:
 
 * `man`
-* `ls`
-* `cd` `pwd`
+* **`ls`**
+* **`cd`** `pwd`
 * `mkdir`
-* `cp` `mv` `rm`
-* `echo` `cat`
-* `wc`
-* `|` `>` `<`
-* `grep`
+* `cp` **`mv`** `rm`
+* **`echo`** `cat`
+* **`wc`**
+* **`|`** `>` `<`
+* **`grep`**
 * `tail` `head` `awk`
-* `find`
+* **`find`**
 * `ctrl-c` `ctrl-z` `fg` `bg`
-* `tar`
-* `curl` `wget`
+* **`tar`**
+* `curl` **`wget`**
 * `apt-get install` (This is a Linux-distribution specific command, and hence not available on Mac or other non-Ubuntu based distributions; for Mac, a similar package manager called Brew exists)
 * `apt-cache search` (same as above)
 
