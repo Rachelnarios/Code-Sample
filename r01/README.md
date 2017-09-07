@@ -175,7 +175,7 @@ There are several important [automatic variables](https://www.gnu.org/software/m
 
 ## Tmux/Screen
 
-It's tedious to switch between vim and command line. Unfortunately, you need to do so all the time to compile, run and debug the program. It is possible to do all these in the editor. But it usually required you to install extra plugins. I personally recommend using tmux or screen which can split the terminal into several tabs/windows/panes and provide hot-key to switch among different area quickly.
+It's tedious to switch between vim and command line. Unfortunately, you need to do so all the time to compile, run and debug the programs. It is possible to do all these in the editor. But it usually requires you to install extra plugins. I personally recommend using tmux or screen which can split the terminal into several tabs/windows/panes and provide hot-key to switch among different area quickly.
 
 Key commands of tmux:
 * `tmux` to launch tmux environment.
@@ -188,8 +188,8 @@ Key commands of tmux:
 * `ctrl+b o` to swap panes.
 
 Other readings:
-* [tmux shortcuts & cheatsheet](https://gist.github.com/MohamedAlaa/2961058)
 * [tmux tutorial](http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
+* [tmux shortcuts & cheatsheet](https://gist.github.com/MohamedAlaa/2961058)
 
 ## Debug
 
