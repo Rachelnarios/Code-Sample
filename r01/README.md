@@ -7,7 +7,7 @@
    * [Debug](#debug)
    * [Tmux](#tmux)
    * [Version control](#version-control)
-   * [What to submit for today's recitation](#what-to-submit)
+   * [What to submit for today's recitation](#what-to-submit-for-todays-recitation)
 
 # Basic UNIX usage
 
