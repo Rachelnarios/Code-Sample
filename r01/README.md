@@ -4,8 +4,8 @@
 - [Program development](#program-development)
    * [Editor](#editor)
    * [Compile](#compile)
-   * [Compile in editor](#compile-in-editor)
    * [Debug](#debug)
+   * [Tmux](#tmux)
    * [Version control](#version-control)
 
 # Basic UNIX usage
@@ -47,7 +47,7 @@ be discovered by Googling.  Click on those Stackoverflow links.  It has many hel
 **Please always Google your question first before asking any program environment (Linux, VIM/Emacs and Git) questions on Piazza. Most of the time, what you need are some specific commands and/or options.**
 
 ---
-### Exercises
+### Exercise 1 (Nothing to submit for this exercise).
 
 * Using the command line only, download and extract the source code of Nginx, a web server. The code's URL is at here: http://nginx.org/download/nginx-1.9.2.tar.gz
 
@@ -169,13 +169,13 @@ There are several important [automatic variables](https://www.gnu.org/software/m
 ```
   Above rule copies any file with suffix `.a` into another file with the same name except having suffix `.b`
 
-### Exercises
+### Exercise 2 (Please submit Makefile and hello.c. The Makefile should also contain the debug flag discussed in exercise 3)
 
 * Rewrite the given Makefile using pattern matching and variables. Make it as clean and re-usable as possible.
 
-* Write the classic "Hello world!" program in C.
+* Write the classic "Hello world!" program in C. The file name should be hello.c.
 
-## Tmux/Screen
+## Tmux
 
 It's tedious to switch between vim and command line. Unfortunately, you need to do so all the time to compile, run and debug the programs. It is possible to do all these in the editor. But it usually requires you to install extra plugins. I personally recommend using tmux or screen which can split the terminal into several tabs/windows/panes and provide hot-key to switch among different area quickly.
 
@@ -210,7 +210,7 @@ To debug, type `gdb foo`.  The most basic gdb commands are: (I give their shortc
 - `n` (continue execution to the next source line) `s` (continue until control reaches a different source file)
 - `c` (continue execution)
 
-### Exercises
+### Exercise 3 (Submit fixed foo.c and Makefile. Makefile should contain the debug flag and the pattern match rules discussed in exercise 2)
 
 * Modify your Makefile to include the `-g` flag
 
@@ -227,9 +227,12 @@ After making the modifications, you can check in the changes in your (local) git
 
 **Please do not put any code in this class on a Github public repo (or other public repositories)**
 
-### Exercises
+### Exercise 4 (Here is where you submit all your filed
 
 * Commit your "Hello world!" program's source code to your Github repository.
+* Commit the modified Makefile to your Github repository.
+* Commit the fixed foo.c to your Github repository.
+* Remember to PUSH your commits to the remote repository (**git push**).
 (Github's [student developer pack](https://education.github.com) gives you free private repo(s))
 
 ## What to submit for today's recitation
