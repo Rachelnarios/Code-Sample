@@ -169,7 +169,7 @@ There are several important [automatic variables](https://www.gnu.org/software/m
 ```
   Above rule copies any file with suffix `.a` into another file with the same name except having suffix `.b`
 
-### Exercise 2 (Please submit Makefile and hello.c. The Makefile should also contain the debug flag discussed in exercise 3)
+### Exercise 2 (Please submit the Makefile and hello.c. The Makefile should also contain the debug flag discussed in exercise 3)
 
 * Rewrite the given Makefile using pattern matching and variables. Make it as clean and re-usable as possible.
 
@@ -210,7 +210,7 @@ To debug, type `gdb foo`.  The most basic gdb commands are: (I give their shortc
 - `n` (continue execution to the next source line) `s` (continue until control reaches a different source file)
 - `c` (continue execution)
 
-### Exercise 3 (Submit fixed foo.c and Makefile. Makefile should contain the debug flag and the pattern match rules discussed in exercise 2)
+### Exercise 3 (Submit the fixed foo.c and Makefile. Makefile should contain the debug flag and the pattern match rules discussed in exercise 2)
 
 * Modify your Makefile to include the `-g` flag
 
