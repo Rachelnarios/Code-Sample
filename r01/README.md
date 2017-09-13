@@ -224,7 +224,7 @@ To debug, type `gdb foo`.  The most basic gdb commands are: (I give their shortc
 We recommend using `git`, developed by Linus Torvalds. You can read this [git tutorial](https://www.atlassian.com/git/tutorials).
 
 After making the modifications, you can check in the changes in your (local) git repo, by typing
-`git commit -am "Fix Makefile to use variables and pattern matching"`
+`git add Makefile foo.c hello.c` then `git commit -m "recitation 01"`.
 
 **Please do not put any code in this class on a Github public repo (or other public repositories)**
 
