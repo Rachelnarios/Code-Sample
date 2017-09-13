@@ -7,6 +7,7 @@
    * [Debug](#debug)
    * [Tmux](#tmux)
    * [Version control](#version-control)
+   * [What to submit for today's recitation](#what-to-submit)
 
 # Basic UNIX usage
 
@@ -227,7 +228,7 @@ After making the modifications, you can check in the changes in your (local) git
 
 **Please do not put any code in this class on a Github public repo (or other public repositories)**
 
-### Exercise 4 (Here is where you submit all your filed
+### Exercise 4 (Here is where you submit all your files)
 
 * Commit your "Hello world!" program's source code to your Github repository.
 * Commit the modified Makefile to your Github repository.
