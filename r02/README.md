@@ -2,7 +2,7 @@ Tutorial 2
 ==========
 
 ## Exercise 1 
-Compile **e1.c** and execute it. You should see the output is 1198. Carefully read e1.c and decide what is the correct number of **answer** on line 57 in order to print **3360153** instead of 1198. Note that you can only modify line 57.
+Compile **e1.c** and execute it. You should see the output is 1198. Carefully read e1.c and decide what is the correct number of **answer** on line 56 in order to print **3360153** instead of 1198. Note that you can only modify line 56.
 
 Hint: To compile, type **gcc e1.c**.  
 Hint: Some function calls can be ignore. After finding out the meanful function calls, this question becomes a simple algebra question.
