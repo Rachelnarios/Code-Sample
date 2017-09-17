@@ -24,6 +24,6 @@ Hint: First convert the desired output to a 32-bit binary.
 Hint: What are bitwise shift operators for?
 
 ## What to submit and how to submit??
-You need to submit all five modified files.  
+You need to submit all four modified files.  
 **git add e1.c e2.c e3.c e4.c**  
 **git commit -m "r02"**
